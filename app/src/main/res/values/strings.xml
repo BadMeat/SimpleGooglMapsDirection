@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MapsTerusApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="get_direction">Get Direction</string>
+    <string name="title_activity_secondo_maps">Map</string>
+    <string name="directionsApiKey">AIzaSyCR9ZYk1wcoMsPHjuOqFXliP8Pk39e9EQ0</string>
+</resources>
