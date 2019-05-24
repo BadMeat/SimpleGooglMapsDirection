@@ -71,7 +71,7 @@ class SecondoMapsActivity : FragmentActivity(), OnMapReadyCallback {
                         if (leg.steps != null) {
                             for (j in leg.steps.indices) {
                                 val step = leg.steps[j]
-                                if (step.steps != null && step.steps.size > 0) {
+                                if (step.steps != null && step.steps.isNotEmpty()) {
                                     for (k in step.steps.indices) {
                                         val step1 = step.steps[k]
                                         val points1 = step1.polyline
